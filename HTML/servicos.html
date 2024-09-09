@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natura</title>
+    <link rel="stylesheet" href="../CSS/servicos.css">
+</head>
+
+<body>
+
+<header>
+    <a href="../index.html">Home</a>
+</header>
+
+    <form action="#">
+
+        <br><br>
+        <fieldset>
+
+            <legend>Sua informações</legend>
+
+            <label for="cNome">Nome:</label>
+            <input type="text" id="cNome" placeholder="Seu Nome">
+
+            <label for="cTelefone">Telefone:</label>
+            <input type="number" id="cTelefone" placeholder="Ex:11 
+            40028922">
+
+            <label for="cProduto">Produto(s)</label>
+            <input autocomplete="on" list="Produto" placeholder="Escolha seu Produto" id="cProduto" name="listaProduto">
+            <datalist id="cProduto">
+                <option value="Luna 10 Anos 75ml">Luna</option>
+                <option value="Desodorante Antitranspirante">Tododia</option>
+                <option value="Ilía Secreto 50ml">Ilía</option>
+            </datalist>
+            
+
+            <br><br>
+            <label for="cEmail">E-mail:</label>
+            <input type="email" id="cEmail" placeholder="Ex:">
+
+            <label for="cCep">CEP:</label>
+            <input type="number" id="cCep">
+
+            <br><br>
+            <label for="cDetalhe">Detalhe:</label>
+            <textarea id="cDetalhe" cols="30" rows="10" placeholder="Detalhe sobre sua moradia (opcional)"></textarea>
+
+            <br><br>
+            <input type="submit" value="Enviar">
+
+
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>

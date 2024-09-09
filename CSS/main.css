@@ -1,0 +1,23 @@
+header {
+    background-color: rgb(241, 97, 30);
+    border-style: dashed;
+}
+body {
+    font-family: cursive;
+    background-color: coral;
+}
+
+legend {
+    font-family: cursive;
+}
+
+a {
+    font-family: cursive;
+    font-size: large;
+
+}
+
+img {
+    
+width: 100px;
+}
